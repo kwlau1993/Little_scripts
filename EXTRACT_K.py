@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+#Extract points in a specific direction in k-space
+
 import fileinput
 import numpy as np
 
