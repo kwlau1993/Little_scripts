@@ -9,6 +9,7 @@ g = open(filename,'r+')
 dummy=1
 
 for line in fileinput.input('EIGVAL.OUT', backup='.bak'):
+# specify the eigenstates to be extracted
  if line.startswith('    31 -'):
 	dumdum=[dummy,line]
 	for item in dumdum:
